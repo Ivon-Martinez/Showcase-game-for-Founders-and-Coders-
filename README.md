@@ -19,4 +19,4 @@ How to Play
 
 Deployment
 
-Play the game here: 
+Play the game here: https://ivon-martinez.github.io/Showcase-game-for-Founders-and-Coders-/
