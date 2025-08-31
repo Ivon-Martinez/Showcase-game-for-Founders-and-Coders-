@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Color Match Game</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Color Match Game</h1>
+<p id="text">Click the side that matches the color of the middle figure. Game over if you make a mistake!</p>
+
+<div id="game">
+    <div id="row1" class="row1">
+        <p>Game Over!</p>
+    </div>
+
+    <div id="row2" class="row2">
+        <div id="left" class="column"></div>
+        <div id="middle" class="column">?</div>
+        <div id="right" class="column"></div>
+    </div>
+
+    <div id="row3" class="row3">
+    <div id="left_arrow" class="side"> &lt; </div>
+            <div id="right_arrow" class="side"> > </div>
+    </div>
+
+</div>
+
+<div id="reset"><button id = "resetBtn">Reset</button></div>
+
+<script src="script.js"></script>
+</body>
+</html>
